@@ -25,13 +25,11 @@
     background-color: var(--main-background-color);
     font-family: var(--main-font-name), var(--main-font-family);
     font-size: 14px;
-    font-weight: 400;
-    line-height: 1.714;
+    line-height: 1.7;
     letter-spacing: 0.03em;
 }
 
 .link {
-    color: var(--title-text-color);
     text-decoration: none;
 }
 
@@ -52,7 +50,7 @@ ul {
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
-    line-height: 1,192;
+    line-height: 1,2;
     /* identical to box height */
 
     letter-spacing: 0.03em;
@@ -64,7 +62,7 @@ ul {
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
-    line-height: 1.192;
+    line-height: 1.2;
     /* identical to box height */
 
     letter-spacing: 0.03em;
@@ -75,7 +73,7 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.142;
+    line-height: 1.1;
     letter-spacing: 0.02em;
 }
 
@@ -85,7 +83,7 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.142;
+    line-height: 1.1;
     letter-spacing: 0.02em;
 }
 
@@ -95,7 +93,7 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.142;
+    line-height: 1.1;
     letter-spacing: 0.02em;
 }
 
@@ -106,7 +104,7 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.142;
+    line-height: 1.1;
     letter-spacing: 0.02em;
 }
 
@@ -120,7 +118,7 @@ ul {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.363;
+    line-height: 1.4;
     /* or 136% */
     
     text-align: center;
@@ -135,7 +133,8 @@ ul {
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 1.875;
+    line-height: 1.9;
+    cursor: pointer;
     /* identical to box height, or 187% */
     
     display: flex;
@@ -152,7 +151,8 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.625;
+    line-height: 1.6;
+    cursor: pointer;
 /* identical to box height, or 162% */
 
 text-align: center;
@@ -168,7 +168,8 @@ border-radius: 4px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.625;
+    line-height: 1.6;
+    cursor: pointer;
 /* identical to box height, or 162% */
 
 text-align: center;
@@ -179,10 +180,9 @@ border-radius: 4px;
 .section-title {
     color: var(--title-text-color);
     font-family: var(--main-font-name);
-    font-style: normal;
     font-weight: bold;
     font-size: 36px;
-    line-height: 1.166;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -190,20 +190,16 @@ border-radius: 4px;
 .section-subtitle {
     color: var(--title-text-color);
     font-family: var(--main-font-name);
-    font-style: normal;
     font-weight: bold;
-    font-size: 14px;
-    line-height: 1.172;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .section-text {
     font-family: var(--main-font-name);
-    font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 1.714;
+    line-height: 1.7;
     /* or 171% */
     
     letter-spacing: 0.03em;
@@ -212,10 +208,9 @@ border-radius: 4px;
 .name {
     color: var(--title-text-color);
     font-family: var(--main-font-name);
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.187;
+    line-height: 1.2;
     /* identical to box height */
     
     letter-spacing: 0.03em;
@@ -226,7 +221,7 @@ border-radius: 4px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 1.187;
+    line-height: 1.2;
     /* identical to box height */
     
     letter-spacing: 0.03em;
@@ -242,7 +237,7 @@ border-radius: 4px;
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
-    line-height: 1.192;
+    line-height: 1.2;
     /* identical to box height */
 
     letter-spacing: 0.03em;
@@ -254,7 +249,7 @@ border-radius: 4px;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 1.714;
+    line-height: 1.7;
     /* or 171% */
     
     letter-spacing: 0.03em;
@@ -270,11 +265,9 @@ border-radius: 4px;
 }
 
 .progects {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 1.875;
+    line-height: 1.9;
     /* identical to box height, or 187% */
     
     letter-spacing: 0.03em;
@@ -282,8 +275,6 @@ border-radius: 4px;
 
 .progects-title {
     color: var(--title-text-color);
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
