@@ -305,3 +305,18 @@ border-radius: 4px;
   .container {
       max-width: 1600;
   }
+
+  a.progects-title > h2 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+  }
+
+  a.progects-title > p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.9;
+    /* identical to box height, or 187% */
+    
+    letter-spacing: 0.03em;
+  }
