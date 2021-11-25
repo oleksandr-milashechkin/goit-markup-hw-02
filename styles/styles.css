@@ -306,13 +306,13 @@ border-radius: 4px;
       max-width: 1600;
   }
 
-  a.progects-title > h2 {
+  .progects-subtitle {
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
   }
 
-  a.progects-title > p {
+  .progects-category {
     color: var(--main-text-color);
     font-weight: normal;
     font-size: 16px;
@@ -320,4 +320,9 @@ border-radius: 4px;
     /* identical to box height, or 187% */
     
     letter-spacing: 0.03em;
+  }
+
+  .progects-category:hover,
+  .progects-category:focus {
+      color: var(--accent-color);
   }
